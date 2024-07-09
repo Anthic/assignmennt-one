@@ -236,3 +236,88 @@ bottom: -1.74%;
     margin-top: 60px;
 }
 /* web part end*/
+
+/* my inspiration part start */
+.video-part{
+    max-width: 95%;
+    height: 777px;
+    margin-top: 60px;
+margin-bottom: 60px;
+}
+.video-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.video-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+   
+    margin: 24px 0px;
+}
+.video-discription{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin: 28px 50px;
+    opacity: 0.7;
+    text-align: center;
+
+}
+.video-youtube{
+    width: 1680px;
+    height: 624px;
+    padding: 32px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* my inspiration part end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* my inspiration part start */

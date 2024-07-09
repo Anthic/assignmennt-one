@@ -132,26 +132,107 @@ transition: 0.4s;
 
 /* web part start */
 .web-main{
- max-width: 90%;
- margin-top: 60px;
-    margin-bottom: 60px;
-}
-.web-head{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 95%;
+    
    
 }
+.web-head{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+     padding-left: 60px;
+}
 .web-title{
-color: rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.web-discription{
+    color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
+opacity: 0.7;
+margin: 24px 0px;
+padding: 0px 30px;
+}
+
+
+
+.web-contain{
+ display: flex;
+justify-content: space-between;
+flex-direction: row;
+margin-left: 90px;
+margin-top: 60px;
+}
+.web-contain-left{
+max-width: 50%;
+
+}
+.web-contain-head{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 20px 0px;
+}
+.web-contain-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.7;
+}
+.web-btn{
+    padding: 17px 25px 17px 25px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
 text-align: center;
-}
-.web-discription{
 
 }
+.web-img{
 
-
+width: 380px;
+height: 270px;
+left: 0.36%;
+right: -0.36%;
+top: 1.74%;
+bottom: -1.74%;
+}
+.web-contain1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-left: 90px;
+    margin-top: 60px;
+}
 /* web part end*/

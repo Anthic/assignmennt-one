@@ -116,3 +116,42 @@ transition: 0.4s;
     background-color: transparent;
     color: rgb(13, 19, 33) ;
 }
+
+/* header part end here */
+
+
+
+
+
+
+
+
+
+
+
+
+/* web part start */
+.web-main{
+ max-width: 90%;
+ margin-top: 60px;
+    margin-bottom: 60px;
+}
+.web-head{
+   
+}
+.web-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+text-align: center;
+}
+.web-discription{
+
+}
+
+
+/* web part end*/

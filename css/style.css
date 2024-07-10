@@ -323,6 +323,10 @@ max-width: 95%;
 .target-card{
 max-width: 95%;
 height: 463px;
+display: flex;
+justify-content: space-around;
+margin: 20px 12px;
+
 }
 .card-content{
 width: 364px;
@@ -331,6 +335,22 @@ height: 300px;
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
     margin: 0px 30px;
+}
+.card-content1{
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+        padding: 40px;
+        margin: 0px 30px;
+}
+.card-content2{
+    width: 364px;
+    height: 300px;
+        border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        padding: 40px;
+        margin: 0px 30px;
 }
 .card-img{
     width: 70px;
@@ -341,6 +361,8 @@ height: 300px;
     bottom: 0%;
     margin: 20px 0px;
 }
+
+
 .card-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -366,10 +388,10 @@ height: 300px;
     font-family: Azeret Mono;
     font-size: 19px;
     font-weight: 700;
-    line-height: 19px;
+    line-height: 60px;
     letter-spacing: 0%;
     text-align: left;
-    padding: 24px 0px;
+    
 }
 
 

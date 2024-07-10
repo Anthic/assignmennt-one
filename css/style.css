@@ -1,192 +1,158 @@
-/* font style link*/
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* navbar part start  here */
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap"); * {
+    margin: 0px;
+    padding: 0px;
 }
-.navbar{
+
+.navbar {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 20px;
     font-weight: 800;
     line-height: 30px;
-    letter-spacing: 0%;
     text-align: left;
     margin: 40px 107px;
 }
-.navbar-content{
+
+.navbar-content {
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
 }
-.navbar-head{
 
+.navbar-head {
 }
-.navbar-btn{
+
+.navbar-btn {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
-    padding: 24px 17px 24px 17px;
+    padding: 24px 17px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
-
-/* header part start here */
-
-.header-part{
-    background-image: url(../assets/Hero-bg.png);
-    background-position: center;
+.header-part {
+    background-image: url("../assets/Hero-bg.png");
+    background-position: center center;
     background-size: cover;
     height: 700px;
-    
-
-
 }
-.image-part{
+
+.image-part {
     width: 240px;
     height: 240px;
     margin: 36px;
 }
 
-.header-content{
-
-max-width: 85%;
-
-height: 582px;
-
-display: flex;
-
-flex-direction: column;
-
-justify-content: flex-start;
-
-align-items: center;
-padding-left: 150px;
-
+.header-content {
+    max-width: 85%;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 150px;
 }
 
-.title-part{
+.title-part {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 50px;
     font-weight: 800;
     line-height: 69px;
-    letter-spacing: 0%;
     text-align: center;
     margin-bottom: 20px;
 }
-.title-discription{
+
+.title-discription {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 17px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin: 20px;
-width: 1440px;
+    font-family: "Azeret Mono";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 20px;
+    width: 1440px;
 }
-.btn{
-    padding: 21px 24px 21px 24px;
+
+.btn {
+    padding: 21px 24px;
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-border-radius: 8px;
-background: rgb(13, 19, 33);
-margin: 32px 0px;
-transition: 0.4s;
-}
-.btn:hover{
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    background-color: transparent;
-    color: rgb(13, 19, 33) ;
+    margin: 32px 0px;
+    transition: all 0.4s ease 0s;
 }
 
-/* header part end here */
+.btn:hover {
+    border-radius: 8px;
+    background: transparent;
+    color: rgb(13, 19, 33);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-/* web part start */
-.web-main{
+.web-main {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-top: 80px;
     margin-bottom: 80px;
     max-width: 95%;
-    
-   
 }
-.web-head{
+
+.web-head {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-     padding-left: 60px;
+    padding-left: 60px;
 }
-.web-title{
+
+.web-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 45px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
     text-align: center;
     margin-bottom: 32px;
 }
 
-.web-discription{
+.web-discription {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin: 24px 0px;
-padding: 0px 30px;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+    padding: 0px 30px;
 }
 
-
-
-.web-contain{
- display: flex;
-justify-content: space-between;
-flex-direction: row;
-margin-left: 90px;
-margin-top: 60px;
+.web-contain {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-top: 60px;
 }
-.web-contain-left{
-max-width: 50%;
 
+.web-contain-left {
+    max-width: 50%;
 }
-.web-contain-head{
+
+.web-contain-head {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
@@ -194,9 +160,10 @@ max-width: 50%;
     text-align: left;
     margin: 20px 0px;
 }
-.web-contain-title{
+
+.web-contain-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
@@ -204,222 +171,284 @@ max-width: 50%;
     text-align: left;
     opacity: 0.7;
 }
-.web-btn{
-    padding: 17px 25px 17px 25px;
+
+.web-btn {
+    padding: 17px 25px;
     margin: 32px 0px;
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
 }
-.web-img{
 
-width: 380px;
-height: 270px;
-left: 0.36%;
-right: -0.36%;
-top: 1.74%;
-bottom: -1.74%;
+.web-img {
+    width: 380px;
+    height: 270px;
+    inset: 1.74% -0.36% -1.74% 0.36%;
 }
-.web-contain1{
+
+.web-contain1 {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     margin-left: 90px;
     margin-top: 60px;
 }
-/* web part end*/
 
-/* my inspiration part start */
-.video-part{
+.video-part {
     max-width: 95%;
     height: 777px;
     margin-top: 60px;
-margin-bottom: 60px;
+    margin-bottom: 60px;
 }
-.video-content{
+
+.video-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-.video-title{
+.video-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 40px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
-   
     margin: 24px 0px;
 }
-.video-discription{
+
+.video-discription {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     margin: 28px 50px;
     opacity: 0.7;
     text-align: center;
-
 }
-.video-youtube{
-    width: 1680px;
-    height: 624px;
+
+.video-youtube {
+    width: 1583px;
+    height: 568px;
     padding: 32px;
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
 
-
-/* my inspiration part end */
-
-
-
-
-/* my current target start */
-.target{
-padding: 50px 0px;
-max-width: 95%;
+.target {
+    padding: 50px 0px;
+    max-width: 95%;
 }
-.target-content{
 
+.target-content {
 }
-.target-title{
+
+.target-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 40px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
     text-align: center;
 }
-.target-discription{
+
+.target-discription {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
     padding: 30px 50px;
-
 }
 
-
-.target-card{
-max-width: 95%;
-height: 463px;
-display: flex;
-justify-content: space-around;
-margin: 20px 12px;
-
+.target-card {
+    max-width: 95%;
+    height: 463px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 12px;
 }
-.card-content{
-width: 364px;
-height: 300px;
+
+.card-content {
+    width: 364px;
+    height: 300px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
     margin: 0px 30px;
 }
-.card-content1{
+
+.card-content1 {
     width: 364px;
     height: 300px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
-        padding: 40px;
-        margin: 0px 30px;
+    padding: 40px;
+    margin: 0px 30px;
 }
-.card-content2{
+
+.card-content2 {
     width: 364px;
     height: 300px;
-        border-radius: 16px;
-        background: rgba(255, 76, 30, 0.05);
-        padding: 40px;
-        margin: 0px 30px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin: 0px 30px;
 }
-.card-img{
+
+.card-img {
     width: 70px;
     height: 65px;
-    left: 14.57%;
-    right: 14.57%;
-    top: 0%;
-    bottom: 0%;
+    inset: 0% 14.57%;
     margin: 20px 0px;
 }
 
-
-.card-title{
+.card-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 30px;
     font-weight: 800;
     line-height: 36px;
-    letter-spacing: 0%;
     text-align: left;
     margin: 20px 0px;
 }
-.card-head{
+
+.card-head {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 17px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: left;
     opacity: 0.7;
 }
-.card-link{
+
+.card-link {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 19px;
     font-weight: 700;
     line-height: 60px;
-    letter-spacing: 0%;
     text-align: left;
-    
 }
 
+.need {
+    width: 1286px;
+    height: 399px;
+    inset: 4752px 150px 179px;
+    background: url("../assets/handshake.jpg") center top no-repeat;
+    margin-left: 58px;
+    border-radius: 17px;
+    padding: 162px 59px 91px 29px;
+}
 
+.need-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.need-title {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin: 26px 0px;
+}
 
+.need-dis {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 26px 0px;
+}
 
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.form-main {
+    width: 585px;
+    height: 46px;
+    padding: 19px 72px 15px 38px;
+    margin: 34px 16px;
+    border-radius: 16px;
+    border: solid rgb(255, 255, 255);
+}
 
+.form-btn {
+    width: 190px;
+    height: 79px;
+    padding: 13px 12px 12px 10px;
+    border-radius: 8px;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+height: 100px;
+left: 0;
+top: 5145px;
+border-radius: 16px;
 
+background: rgba(13, 19, 33, 0.03);
+}
+.last-dis{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.last-icon{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.fb{
+    width: 36px;
+    height: 36px;
+    left: 0;
+    top: 0;
+    margin: 0px 25px;
+}
+.git{
 
-/* my current target end */
+margin: 0px 25px;
+}
+.link{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* my inspiration part start */
+margin: 0px 25px;
+}
